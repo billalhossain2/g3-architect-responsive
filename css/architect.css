@@ -191,7 +191,8 @@ ul li a {
   }
 
   nav,
-  .team {
+  .team,
+  .features {
     flex-direction: column;
   }
 
@@ -225,6 +226,24 @@ ul li a {
   .team-content {
     text-align: center;
     margin: 20px 0 0 0;
+  }
+
+  .feature-image-container img{
+    margin:0;
+    width: 100%;
+  }
+
+
+  .feature-card{
+    margin: 0 auto;
+    width: 100%;
+    padding:10px;
+  }
+
+  .ten-year-bage{
+    position: relative;
+    bottom:100px;
+    width: 100%;
   }
 }
 
